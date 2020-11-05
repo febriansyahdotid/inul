@@ -6,7 +6,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://github.com/grikomsn/dotfiles",
+      "destination": "https://github.com/febriansyahdotid/inul",
       "permanent": true
     }
   ]

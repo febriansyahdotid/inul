@@ -1,9 +1,4 @@
-# Custom path envs
-export DENO_INSTALL=$HOME/.deno
-export RUST_INSTALL=$HOME/.cargo
-
 # If you come from bash you might have to change your $PATH.
-export PATH=$DENO_INSTALL/bin:$RUST_INSTALL/bin:$PATH
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -73,7 +68,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew common-aliases docker git last-working-dir nvm pip rust rustup sudo virtualenv zsh-syntax-highlighting)
+plugins=(brew common-aliases git last-working-dir nvm sudo zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,7 +103,7 @@ alias git="hub"
 
 # Integration and hooks for nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" # This loads nvm
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
