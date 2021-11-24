@@ -57,7 +57,7 @@ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 # prep git
 echo "Configuring git..."
 git config --global user.name "Febriansyah" &&
-  git config --global user.email "febriansyahdotid@outlook.com" &&
+  git config --global user.email "febriansyahid@outlook.com" &&
   git config --global init.defaultBranch main
 
 # prep nvm
